@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">Theater Seat Booking</string>
+    <integer name="swing_anim_time">750</integer>
+</resources>

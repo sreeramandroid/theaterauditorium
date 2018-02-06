@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llTopbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_color"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rlTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/transparent"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/llLeftBtns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+           <!-- <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/icn_menu"
+                android:visibility="gone" />-->
+
+
+            <!--<ImageView
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/icn_menu"
+                android:visibility="gone" />-->
+
+
+    <!--        <ImageView
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="gone" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRightBtns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:orientation="horizontal">
+
+          <!--  <ImageView
+                android:id="@+id/btnaddTocart"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/foodbazzar"
+                android:visibility="visible" />-->
+
+           <!-- <ImageView
+                android:id="@+id/btnAssistUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="gone" />-->
+
+            <!--  <ImageView
+                  android:id="@+id/btnfilter"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:clickable="true"
+                  android:contentDescription="@string/app_name"
+                  android:padding="5dp"
+                  android:src="@drawable/ic_launcher_background"
+                  android:visibility="gone" />
+
+
+              <ImageView
+                  android:id="@+id/btnaddmore"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:clickable="true"
+                  android:contentDescription="@string/app_name"
+                  android:padding="5dp"
+                  android:src="@drawable/ic_launcher_background"
+                  android:visibility="gone" />
+
+              <ImageView
+                  android:id="@+id/btnqrcode"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:clickable="true"
+                  android:contentDescription="@string/app_name"
+                  android:padding="5dp"
+                  android:src="@drawable/ic_launcher_background"
+                  android:visibility="gone" />
+
+  -->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTopTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="5dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

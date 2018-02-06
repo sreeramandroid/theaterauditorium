@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="font_type" />
+    </declare-styleable>
+
+    <attr name="font_type">
+        <enum name="light" value="1" />
+        <enum name="regular" value="2" />
+        <enum name="bold" value="3" />
+    </attr>
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float" />
+        <attr name="absoluteMaxValue" format="integer|float" />
+        <attr name="singleThumb" format="boolean" />
+        <attr name="showNA" format="boolean" />
+    </declare-styleable>
+
+
+    // RecyclerView resources
+    <declare-styleable name="CustomRecyclerView">
+        <attr name="pagination" format="boolean" />
+        <attr name="loadmore_visibility" format="boolean" />
+        <attr name="gird_span" format="integer" />
+        <attr name="list_type" />
+        <attr name="list_orientation" />
+        <attr name="loadmore_type" />
+    </declare-styleable>
+
+    <attr name="loadmore_type">
+        <enum name="bottom" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+
+    <attr name="list_type">
+        <enum name="list" value="0" />
+        <enum name="grid" value="1" />
+        <enum name="staggered" value="2" />
+    </attr>
+
+    <attr name="list_orientation">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+
+   </resources>
